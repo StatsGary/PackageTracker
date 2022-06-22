@@ -1,5 +1,9 @@
 # Package Tracker
 
+ <!-- badges: start -->
+  ![GitHub last commit](https://img.shields.io/github/last-commit/StatsGary/PackageTracker)
+  <!-- badges: end -->
+
 This is a function to track your packages and create download and output statistics as a list object. The outputs from the PackageTracker function are:
 
 1. The download statistics per month 
