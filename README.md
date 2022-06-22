@@ -1,7 +1,7 @@
 # Package Tracker
 
  <!-- badges: start -->
-  ![Package Tracker: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+  [![Package Tracker: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
   ![GitHub last commit](https://img.shields.io/github/last-commit/StatsGary/PackageTracker)
   <!-- badges: end -->
 
