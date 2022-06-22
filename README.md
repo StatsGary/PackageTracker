@@ -14,3 +14,16 @@ To use the tracker just type in the name of your package on CRAN to download, su
 package_to_search <- 'ConfusionTableR'
 results <- package_trackeR(c(package_to_search))
 ```
+To output the results of the package use:
+
+```{r}
+results_vec <- results$download_df$downloads
+mean(results_vec)
+```
+
+This will produce a summary of the downloads, per month, for that package. 
+
+To generate a plot, you can use:
+
+```{r}
+```
