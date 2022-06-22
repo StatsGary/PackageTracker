@@ -38,3 +38,7 @@ plot <- plot + geom_smooth(color='red', fill='grey', method='loess', formula='y 
   labs(title=paste(package_to_search, 'downloads plot'))
 ggplotly(plot)
 ```
+
+This will produce a similar plot to this:
+
+![DownloadsPlot.png]
