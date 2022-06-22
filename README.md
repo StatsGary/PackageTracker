@@ -26,4 +26,15 @@ This will produce a summary of the downloads, per month, for that package.
 To generate a plot, you can use:
 
 ```{r}
+plot <- results$downloads_plot
+```
+
+Printing this plot will give you a standard ggplot2 object, but to spice it up we can add a smoothing function, and some styling, plus wrap it in a plotly wrapper:
+
+```{r}
+library(plotly)
+plot <- plot + geom_smooth(color='red', fill='grey', method='loess', formula='y ~ x') + geom_line(color='black') + 
+  geom_point(color='black') + theme(legend.position = 'none') + 
+  labs(title=paste(package_to_search, 'downloads plot'))
+ggplotly(plot)
 ```
