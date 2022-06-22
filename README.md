@@ -41,4 +41,4 @@ ggplotly(plot)
 
 This will produce a similar plot to this:
 
-![DownloadsPlot.png]
+<img src ='DownloadsPlot.png'>
